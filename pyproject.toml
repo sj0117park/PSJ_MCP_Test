@@ -11,5 +11,5 @@ dependencies = [
 # 외부 환경 배포용: 사내 Nexus 대신 공개 PyPI 사용
 [[tool.uv.index]]
 name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://pypi.org/simple/hostingfail"
 default = true

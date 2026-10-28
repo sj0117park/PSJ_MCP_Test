@@ -1,11 +1,11 @@
 [project]
 name = "mcp-test"
-version = "0.1.0"
-description = "FastMCP calculator server (streamable-http) for external/AWS deployment"
+version = "0.2.0"
+description = "MCP Python SDK v2 test server"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "fastmcp",
+    "mcp[cli]==2.0.0",
 ]
 
 # 외부 환경 배포용: 사내 Nexus 대신 공개 PyPI 사용
